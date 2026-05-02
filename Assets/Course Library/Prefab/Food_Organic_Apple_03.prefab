@@ -104,7 +104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d16d3343ea63b8a4abf676e068fa91d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FoodController
-  speed: 15
+  speed: 20
 --- !u!114 &2608456209713370351
 MonoBehaviour:
   m_ObjectHideFlags: 0

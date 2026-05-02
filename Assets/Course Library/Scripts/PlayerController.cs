@@ -25,12 +25,12 @@ public class PlayerController : MonoBehaviour
     {
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate( Vector3.right * Time.deltaTime * playerSpeed * horizontalInput );
-        if(transform.position.x > 24) 
+        if(transform.position.x > 26) 
         {
           transform.position = (new Vector3( maxX , transform.position.y , transform.position.z ))  ;
         }
         
-        else if(transform.position.x < -24)
+        else if(transform.position.x < -26)
         {
             transform.position = (new Vector3( -maxX , transform.position.y, transform.position.z ));
         }

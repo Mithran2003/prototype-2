@@ -580,7 +580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 117f673913d75cb46a78b8825a84da8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  playerSpeed: 15
+  playerSpeed: 20
   projectilePrefab: {fileID: 7666136636132936350, guid: 678855d04cc5ed0458173a2eb43e55ba, type: 3}
   startingFoodCount: 20
   maxX: 24
