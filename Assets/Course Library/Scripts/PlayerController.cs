@@ -5,6 +5,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private float playerSpeed;
     private float horizontalInput;
+    [SerializeField]
+    private float maxX = 24 ; // Variable to set the Maximum value of X cordinate  
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -18,12 +20,12 @@ public class PlayerController : MonoBehaviour
         transform.Translate( Vector3.right * Time.deltaTime * playerSpeed * horizontalInput );
         if(transform.position.x > 24) 
         {
-          transform.position = (new Vector3( 24f , 0f , - 2f ))  ;
+          transform.position = (new Vector3( maxX , transform.position.y , transform.position.z ))  ;
         }
         
         else if(transform.position.x < -24)
         {
-            transform.position = (new Vector3( -24f , 0f , - 2f ));
+            transform.position = (new Vector3( -maxX , transform.position.y, transform.position.z ));
         }
 
 
