@@ -620,6 +620,7 @@ MonoBehaviour:
   - {fileID: 7767802806827675064, guid: 8c70e87a6735a3648bc7ff6014454eac, type: 3}
   - {fileID: 5249557679820222457, guid: c974d553f96c948449247d4695f0d246, type: 3}
   playerIsAlive: 1
+  MaxAnimalsEscaped: 5
 --- !u!4 &848193297
 Transform:
   m_ObjectHideFlags: 0
